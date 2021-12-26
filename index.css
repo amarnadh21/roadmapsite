@@ -1,0 +1,196 @@
+.h-center {
+
+    text-align: center;
+
+}
+
+.paragraph {
+
+    color:violet;
+}
+
+body {
+    
+    background-image:url("C:/Users/hp/Downloads/The+Road/The+Road/Final Files/images/header-bg.jpg");
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    perspective: 100rem;
+}
+
+   
+.mainheading{
+    font-size:1.5rem;
+    text-align: center;
+
+}
+.quotes{
+    font-size: 3rem;
+    text-align:center;
+    text-decoration:underline ;
+    font-weight: 500;
+    color:rgb(44, 64, 124);    ;
+    
+}
+
+
+.heading {
+    font-size:1.6rem;  
+    font-style: italic;
+    color:var(--w);
+   
+    width: 1400px;
+    letter-spacing: 0.02rem;
+    text-shadow: 0.2rem;
+}
+
+    
+.logo {
+    position: absolute;
+    top: 0.2rem;
+    left:4rem;
+}
+.logo h1{
+    display: flex;
+}
+.logo h1 span{
+    font-size: 2rem;
+    font-weight: 900;
+    color:var(---primary-color);
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+}
+
+    .logo h1 span:nth-child(1){
+       animation: drop-letters 5s .1s
+       infinite;
+    }
+    .logo h1 span:nth-child(2){
+        animation: drop-letters 5s .2s
+        infinite;
+    }
+    .logo h1 span:nth-child(3) {
+        animation: drop-letters 5s .3s
+        infinite;
+    }
+    .logo h1 span:nth-child(4){
+        animation: drop-letters 5s .4s
+        infinite;
+    }
+    .logo h1 span:nth-child(5){
+        animation: drop-letters 5s .5s
+        infinite;
+    }
+    .logo h1 span:nth-child(6){
+        animation: drop-letters 5s .6s
+        infinite;
+    }
+    .logo h1 span:nth-child(7){
+        animation: drop-letters 5s .7s
+        infinite;
+    }
+
+
+@keyframes drop-letters {
+    0% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(-50);
+    }
+    15% {
+        transform: translateY(-100%);
+    }
+    20% {
+        transform: translateY(-50);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.headerimage{
+    width:30%;
+    float: right;
+    animation: image-float 150s infinite;
+
+}
+
+@keyframes image-float{
+    0%{
+        transform: translateZ(20rem);
+        opacity: 1;
+    }
+    40%{
+    transform: translateZ(-200rem)
+    translateX(150rem);
+    opacity: 0.8;
+}
+   70%{
+    transform: translateZ(-1800rem)
+    translatex(800rem);
+    opacity: 0.6;
+}
+
+  80%{
+    transform: translateZ(-30rem)
+    translateX(100rem);
+    opacity: 0.8;
+}
+
+  100%{
+    transform: translateZ(20rem);
+    opacity: 1;
+      }
+ }
+
+ .headerimage2{
+    width:30%;
+    animation: image-float 150s infinite;
+}
+
+@keyframes image-float{
+    0%{
+        transform: translateZ(40rem);
+        opacity: 1;
+    }
+    40%{
+    transform: translateZ(-500rem)
+    translateX(150rem);
+    opacity: 0.8;
+}
+   70%{
+    transform: translateZ(-1400rem)
+    translatex(800rem);
+    opacity: 0.6;
+}
+
+  80%{
+    transform: translateZ(-50rem)
+    translateX(100rem);
+    opacity: 0.8;
+}
+
+  100%{
+    transform: translateZ(40rem);
+    opacity: 1;
+      }
+ }
+
+
+
+
+
+
+
+
+
+
+    
+
+
+

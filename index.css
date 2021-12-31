@@ -10,18 +10,19 @@
 
 .h-center {
     text-align: center;
+    
 }
 
 .paragraph {
     color:violet;
 }
 
-body {
+.section {
     background-image:url("images/header-bg.jpg");
     position: relative;
     background-size:100%;
     background-attachment: fixed;
-    perspective: 100rem;
+    perspective: 80rem;
 }
 
 .mainheading{
@@ -40,7 +41,7 @@ body {
 .heading {
     font-size:1.6rem;  
     font-style: italic;
-    color:white;
+    color:rgb(244, 246, 248);
     width: 1400px;
     letter-spacing: 0.02rem;
     text-shadow: 0.2rem;
@@ -112,7 +113,7 @@ body {
     20% {
         transform: translateY(-50);
     }
-    100% {
+    20% {
         transform: translateY(0);
     }
 }
@@ -157,22 +158,22 @@ body {
 
 @keyframes image-float{
     0%{
-        transform: translateZ(60rem);
+        transform: translateZ(40rem);
         opacity: 1;
     }
-    40%{
+    30%{
     transform: translateZ(-500rem)
-    translateX(150rem);
+    translateX(100rem);
     opacity: 0.8;
 }
-   70%{
-    transform: translateZ(-1400rem)
+   60%{
+    transform: translateZ(-1200rem)
     translatex(800rem);
     opacity: 0.6;
 }
 
-  80%{
-    transform: translateZ(-50rem)
+  90%{
+    transform: translateZ(-500rem)
     translateX(100rem);
     opacity: 0.8;
 }
@@ -238,6 +239,41 @@ body {
     margin-left: 1px;
   }
   /* End of Stories */
+
+  .contact{
+      padding: 15rem 0 20rem 0;
+      text-align: right;
+      background-image:url("images/contact-us-bg.png");
+      background-attachment: fixed;
+     
+      background-size: cover;
+      animation:newanim 10s infinite ;
+    
+      
+  }
+
+    @keyframes newanim{
+        0%{
+        background-color: rgb(206, 69, 69);
+        }
+        25%{
+            background-color:PINK;
+        }
+        50%{
+            background-color: YELLOW;
+
+        }
+        75%{
+            background-color: violet;
+        }
+        100%{
+            background-color: GREEN;
+        }
+    }
+
+    .card{
+        
+    }
 
 
 
